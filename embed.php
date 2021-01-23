@@ -92,7 +92,7 @@ if(isset($url)){
 	}
 	}
 	
-	$file = '[{"file":"'.$domain_name.'/redirector.php?'.split_link(encrypte($v720p,'uplaycrypt')).'","label":"720p","type":"video\/mp4"}, {"file":"'.$domain_name.'/redirector.php?'.split_link(encrypte($v480p,'uplaycrypt')).'","label":"480p","type":"video\/mp4"},{"file":"'.$domain_name.'/redirector.php?'.split_link(encrypte($v360p,'uplaycrypt')).'","label":"360p","type":"video\/mp4","default":"true"}]';
+	$file = '[{"file":"'.$domain_name.'/redirector.php?'.split_link(encrypte($v720p,'uplaycrypt')).'","label":"720p","type":"video\/mp4"}, {"file":"'.$domain_name.'/redirector.php?'.split_link(encrypte($v480p,'uplaycrypt')).'","label":"480p","type":"video\/mp4"},{"file":"'.$domain_name.'/redirector.php?'.split_link(encrypte($v360p,'uplaycrypt')).'","label":"360p","type":"video\/mp4"}]';
 }
 
 ?>
